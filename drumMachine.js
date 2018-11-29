@@ -1,22 +1,12 @@
-// document.addEventListener('click', (e) => {
-//     document.querySelector('#X').play();
-// })
 
-// document.addEventListener('click', (e) => {
-//     document.querySelector('#W').play();
-// })
 
-// let value = document.getElementById("test").value;
+// let playSound = (e) => {
+//     // document.addEventListener(() => {
+//         let id = e.id
+//         console.log(id)
+//         document.querySelector('#W').play();
+//         // document.querySelector("#W").play();
+//     // })
+// }
 
-// console.log(value)
 
-// .document.addEventListener('click', () => {
-//     document.querySelector("#Q").play();
-// })
-
-let playSound = () => {
-    // document.addEventListener(() => {
-        document.querySelector("#Q").play();
-        document.querySelector("#W").play();
-    // })
-}
