@@ -1,0 +1,57 @@
+body {
+    margin-top: 250px;
+    background-color: #f5f5f5
+}
+
+h1 {
+    margin: 0 auto;
+    width: 800px;
+}
+
+#main-container {
+    margin: 0 auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+#drum-machine {
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: row-reverse
+}
+
+#drum-pads {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+}
+
+
+#display {
+    min-width: 200px;
+    margin-left: 50px;
+    margin-top: 20%;
+    text-align: left;
+}
+
+.drum-pad {
+    margin: 5px;
+    min-height: 100px
+}
+
+@media (max-width: 500px) {
+
+    .drum-pad {
+        min-height: 50px;
+        width: 80px;
+    }
+
+    #drum-pads {
+        grid-template-columns: 100px 100px 100px;
+    }
+
+    #display {
+        margin-left: 25px;
+    }
+}
